@@ -108,12 +108,13 @@ li {
 * {
   font-family: 'Times New Roman', Times, serif;
 }
+
 /*=================================
   Header styling starts here
 =================================*/
 
 header {
-  background-color: #4d0000;
+  background-color: #330000;
   padding: 30px;
 }
 
@@ -150,8 +151,19 @@ header small {
   color: #fff;
 }
 
+
+
+
+/*=================================
+  Header styling ends here
+=================================*/  
+
+/*=================================
+  main styling starts here
+=================================*/
+
 main .slider {
-  background-color: #4d0000;
+  background-color: #330000;
 }
 
 .slider-division {
@@ -202,22 +214,91 @@ main .slider {
   margin-top: -30%;
 }
 
+.previous-button, .next-button {
+  top: 70%;
+  
+}
 
+.section-part {
+  background-color: #660000;
+  width: 100%;
+}
 
+.service-section {
+  padding-top: 70px;
+}
 
+.service-section li {
+  background-color: #fff;
+  width: 20%;
+  height: 330px;
+  margin-left: calc(3% - 5px);
+}
 
+.service-section li:first-child {
+  margin-left: 0;
+}
 
+.service-section li:nth-child(4n) {
+  margin-right: 0;
+}
 
-/*=================================
-  Header styling ends here
-=================================*/  
+.service-section figure {
+  padding: 25px 20%;
+}
 
-/*=================================
-  main styling starts here
-=================================*/
+.service-section figure img {
+  height: 140px;
+  width: 100%;
+}
 
+.service-division {
+  width: 100%;
+  text-align: center;
+}
 
+.service-division h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+}
 
+.service-division p {
+  color: #808080;
+}
+
+.work-section {
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #99ffbb;
+  text-transform: uppercase;
+  width: 15%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.work-section::before {
+  content: " ";
+  width: 50%;
+  display: inline-block;
+  height: 3px;
+  background-color: #99ffbb;
+  position: absolute;
+}
+
+.work-section::after {
+  content: " ";
+  width: 50%;
+  display: inline-block;
+  height: 3px;
+  background-color: #99ffbb;
+  position: absolute;
+}
+
+.section-part ul {
+  width: 100%;
+}
 
 
 
