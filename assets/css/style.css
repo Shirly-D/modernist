@@ -103,9 +103,55 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
+
+/* font-family */
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
 /*=================================
   Header styling starts here
 =================================*/
+
+header {
+  background-color: #4d0000;
+  padding: 30px;
+}
+
+.header-text {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 30px;
+  display: inline-block;
+}
+
+header small {
+  color: #fff;
+  font-size: 10px;
+}
+
+.nav-section {
+  width: 60%;
+  float: right;
+}
+
+.nav-section li {
+  text-transform: uppercase;
+  margin-left: 4%;
+}
+
+.nav-section li a {
+  color: #fff;
+}
+
+.nav-section li a.active {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #99ffbb;
+  color: #fff;
+}
+
+
+
 
 
 
