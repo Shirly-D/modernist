@@ -354,8 +354,8 @@ footer {
   margin-left: 0;
 }
 
-.footer-top div {
-  width: 20%;
+.footer-top li {
+  width: 24%;
   display: inline-block;
   vertical-align: top;
   margin-top: 30px;
@@ -364,10 +364,12 @@ footer {
 .footer-text {
   color: #99ffbb;
   text-transform: capitalize;
+  margin-bottom: 10px;
 }
 
 .footer-text small {
   color: #b3b3b3;
+  text-transform: lowercase;
 }
 
 .footer-link {
@@ -375,6 +377,7 @@ footer {
 }
 
 .footer-link::after {
+  content: "";
   width: 23%;
   height: 2px;
   background-color: #99ffbb;
@@ -382,6 +385,27 @@ footer {
 
 .footer-tweet {
   color: #99ffbb;
+}
+
+.footer-para {
+  color: #808080;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 50%;
+  background-color: #404040;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  padding: 8px 40px;
+  font-size: 15px;
+}
+
+button {
+  background-color: #99ffbb;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
 
 
