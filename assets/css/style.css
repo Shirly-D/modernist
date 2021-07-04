@@ -296,11 +296,38 @@ main .slider {
   position: absolute;
 }
 
-.section-part ul {
+.work-ul {
   width: 100%;
 }
 
+.work-ul li {
+  width: 30%;
+  margin-left: calc(3% - 5px);
+  position: relative;
+  margin-bottom: 30px;
+  border: 5px solid #fff;
+}
 
+.work-ul li figure {
+  border-radius: 2px solid #fff;
+  
+}
+
+.work-ul li:nth-child(3n - 2) {
+  margin-left: 0;
+}
+
+.work-text {
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  background-color: #1a1a1a;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
 
 
 
@@ -312,10 +339,51 @@ main .slider {
   footer styling starts here
 =================================*/ 
 
+footer {
+  background-color: #333333;
+}
 
+.footer-heading {
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
 
+.footer-top div:nth-child(4n - 3) {
+  margin-left: 0;
+}
 
+.footer-top div {
+  width: 23%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+  margin-left: 2%;
+}
 
+.footer-text {
+  color: #99ffbb;
+  text-transform: capitalize;
+}
+
+.footer-text small {
+  color: #b3b3b3;
+}
+
+.footer-link {
+  color: #99ffbb;
+}
+
+.footer-link::after {
+  width: 23%;
+  height: 2px;
+  background-color: #99ffbb;
+}
+
+.footer-tweet {
+  color: #99ffbb;
+}
 
 
  /*=================================
