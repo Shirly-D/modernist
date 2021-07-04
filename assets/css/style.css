@@ -117,7 +117,7 @@ header {
   padding: 30px;
 }
 
-.header-text {
+.header-text a{
   text-transform: capitalize;
   color: #fff;
   font-size: 30px;
@@ -150,7 +150,57 @@ header small {
   color: #fff;
 }
 
+main .slider {
+  background-color: #4d0000;
+}
 
+.slider-division {
+  width: 38%;
+}
+
+.slider-heading {
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.slider-heading::first-letter {
+  text-transform: capitalize;
+}
+
+.slider-text {
+  color: #808080;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.slider {
+  padding: 80px;
+}
+
+.slider-division a {
+  padding: 10px 30px;
+  background-color: #99ffbb;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 22px;
+  border-radius: 20px;
+}
+
+.slider-division a img {
+  width: 20%;
+  float: right;
+}
+
+.slider figure img {
+  width: 40%;
+  height: 480px;
+  border-radius: 50%;
+  border: 30px solid #808080;
+  margin-left: 50%;
+  margin-top: -30%;
+}
 
 
 
