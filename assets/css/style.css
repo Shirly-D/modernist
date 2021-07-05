@@ -118,11 +118,16 @@ header {
   padding: 30px;
 }
 
+.header-text {
+  width: 40%;
+  display: inline-block;
+}
 .header-text a{
   text-transform: capitalize;
   color: #fff;
   font-size: 30px;
-  display: inline-block;
+  display: block;
+
 }
 
 header small {
@@ -225,7 +230,7 @@ main .slider {
 }
 
 .service-section {
-  padding-top: 70px;
+  padding: 70px 0;
 }
 
 .service-section li {
@@ -233,6 +238,15 @@ main .slider {
   width: 20%;
   height: 330px;
   margin-left: calc(3% - 5px);
+}
+
+.service-section li.active {
+  background-color: #99ffbb;
+  color: #fff;
+}
+
+.service-section li.active p {
+  color: #fff;
 }
 
 .service-section li:first-child {
@@ -255,6 +269,8 @@ main .slider {
 .service-division {
   width: 100%;
   text-align: center;
+  box-sizing: border-box;
+  padding: 0 20px 10px;
 }
 
 .service-division h3 {
@@ -298,6 +314,7 @@ main .slider {
 
 .work-ul {
   width: 100%;
+  margin-top: 60px;
 }
 
 .work-ul li {
@@ -354,11 +371,18 @@ footer {
   margin-left: 0;
 }
 
+.footer-top li:first-child {
+  margin-left: 0;
+}
+
 .footer-top li {
-  width: 24%;
+  width: 22%;
   display: inline-block;
   vertical-align: top;
   margin-top: 30px;
+  margin-left:  3.6%;
+  
+
 }
 
 .footer-text {
@@ -378,12 +402,17 @@ footer {
 
 .footer-link::after {
   content: "";
-  width: 50%;
+  width: 100%;
   height: 2px;
   background-color: #99ffbb;
   display: inline-block;
   margin-bottom: 2px;
-  
+}
+
+.footer-li-3 p {
+  margin-bottom: 40px;
+  color: #808080;
+
 }
 
 .footer-tweet {
@@ -396,22 +425,46 @@ footer {
 }
 
 input, textarea {
-  width: 50%;
+  width: 63%;
   background-color: #404040;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-bottom: 8px;
   padding: 8px 40px;
   font-size: 15px;
+  border: 1px #404040;
 }
 
 button {
   background-color: #99ffbb;
   padding: 10px 15px;
   border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: bold;
 }
 
+.footer-bottom {
+  width: 100%;
+}
 
+.footer-bottom div {
+  display: inline-block;
+  width: 49%;
+
+}
+
+.footer-bottom p {
+  text-transform: capitalize;
+  color: #808080;
+  font-size: 18px; 
+}
+
+.footer-bottom span {
+  color: #808080;
+  font-size: 18px;
+
+}
  /*=================================
   footer styling ends here
 =================================*/ 
