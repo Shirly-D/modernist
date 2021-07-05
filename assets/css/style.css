@@ -358,7 +358,7 @@ main .slider {
   display: inline-block;
   vertical-align: middle;
   height: 3px;
-  background-color: #000;
+  background-color: #7EC48D;
   left: 0;
   margin-top: 8px;
 }
@@ -369,7 +369,7 @@ main .slider {
   display: inline-block;
   vertical-align: middle;
   height: 3px;
-  background-color: #000;
+  background-color: #7EC48D;
   right: 0;
   margin-top: 8px;
 }
