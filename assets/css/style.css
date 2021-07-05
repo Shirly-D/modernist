@@ -378,9 +378,12 @@ footer {
 
 .footer-link::after {
   content: "";
-  width: 23%;
+  width: 50%;
   height: 2px;
   background-color: #99ffbb;
+  display: inline-block;
+  margin-bottom: 2px;
+  
 }
 
 .footer-tweet {
